@@ -2,14 +2,14 @@
   "name": "sultan-clawdbot",
   "version": "1.0.0",
   "description": "Sultan's Personal Clawdbot Instance",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "clawdbot gateway start"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=20.0.0"
   },
   "dependencies": {
-    "clawdbot": "latest"
+    "clawdbot": "^1.0.0"
   }
 }
