@@ -1,0 +1,27 @@
+# Sultan's Clawdbot Configuration
+
+gateway:
+  mode: production
+  port: ${PORT:-3000}
+  
+# Default model - Claude Sonnet
+model: claude-sonnet-4-5
+
+# Webchat enabled
+webchat:
+  enabled: true
+  capabilities:
+    inlineButtons: dm
+
+# Agent workspace
+workspace: /app/workspace
+
+# Memory and session settings
+sessions:
+  maxHistory: 50
+  
+# Channels (add more as needed)
+channels: []
+
+# Skills (core skills auto-loaded)
+skills: {}

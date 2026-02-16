@@ -1,0 +1,15 @@
+{
+  "name": "sultan-clawdbot",
+  "version": "1.0.0",
+  "description": "Sultan's Personal Clawdbot Instance",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "clawdbot": "latest"
+  }
+}
