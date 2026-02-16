@@ -2,10 +2,11 @@
 
 gateway:
   mode: production
-  port: ${PORT:-3000}
+  port: ${PORT:-10000}
+  host: 0.0.0.0
   
 # Default model - Claude Sonnet
-model: claude-sonnet-4-5
+model: emergent-claude/claude-sonnet-4-5
 
 # Webchat enabled
 webchat:
